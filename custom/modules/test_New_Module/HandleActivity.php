@@ -45,7 +45,7 @@ class HandleActivity
         global $current_user,$db;
 		if(empty($bean->fetched_row))
 		{
-			 
+			echo "show third commit of file";
 		  
 		}
     }
