@@ -9,6 +9,7 @@
 $hook_array = Array(); 
 // position, file, function 
 $hook_array['after_save'][] = Array(1, 'handleactivity', 'custom/modules/test_New_Module/HandleActivity.php','HandleActivity', 'handleactivities');
+$hook_array['after_save'][] = Array(1, 'handleactivity2', 'custom/modules/test_New_Module/HandleActivity2.php','HandleActivity2', 'handleactivities2');
 
 
 ?>
